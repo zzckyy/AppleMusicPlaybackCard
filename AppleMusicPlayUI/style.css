@@ -1,0 +1,147 @@
+@font-face {
+    font-family: SF;
+    src: url(font/SF-Pro.ttf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: SF;
+    
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(img/alexandracover.png);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(8px);    
+}
+
+.drs
+{
+    font-size: 12px;
+}
+
+.thumbnail{
+    margin-top: 20px;
+    border-radius:12px;
+    position: relative;
+    bottom: 20px;
+    
+}
+
+.card-container{
+    width: 300px;
+    height: 480px;
+    display: block;
+    border: 1px solid black;
+    border-radius: 35px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(20px);
+    box-shadow: 5px 8px 10px black;
+    z-index: 32;
+    
+}
+
+.device{
+    font-size: smaller;
+}
+
+.judul-lagu{
+    font-size: larger;
+    font-weight: 600;
+}
+
+.artist-lagu{
+    font-size: small;
+    font-weight: lighter;
+}
+
+.txt{
+    padding: 1px;
+    /* border: 1px solid; */
+    width: 79%;
+    justify-content: start;
+    bottom: 18px;
+    position: relative;
+}
+
+.txt:hover{
+    cursor: default;
+}
+
+.card-content{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.playback{
+    padding: 5px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.pb{
+    
+    font-size: 30px;
+    margin: 15px 10px;
+}
+
+.playback-control{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.volume{
+    margin-top: 10px;
+}
+
+.vol{
+    position: relative;
+    top: 5px;
+    font-size: medium;
+}
+
+.prog{
+    margin: 0px 7px;
+    height: 8px;
+    background-color: darkcyan;
+    border: 1px solid;
+    border-radius: 8px;
+    color: rgb(31, 31, 31);
+}
+
+progress::-webkit-progress-bar {
+    border-radius: 8px;
+    background-color: rgb(31, 31, 31);
+}
+progress::-webkit-progress-value {
+    background-color: gray;
+    border-radius: 8px;
+}
+
+.btn:hover{
+    color: RGB(249, 76, 87);
+    cursor: pointer;
+}
+
+.btn:active{
+    color: RGB(252, 60, 68);
+}

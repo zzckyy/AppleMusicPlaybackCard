@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple Music Playback Card</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="card-container">
+            <div class="card-content">
+                <img src="img/alexandracover.png" alt="cover" class="thumbnail" width="80%">
+                <p class="device txt">iPhone</p>
+                <p class="judul-lagu txt">Alexandra</p>
+                <p class="artist-lagu txt">Reality Club</p>
+            </div>
+    
+            <div class="playback">
+                <p class="drs">0:00</p>
+                <progress value="30" max="100" class="prog"></progress>
+                <p class="drs">3:59</p>
+            </div>
+    
+            <div class="playback-control">
+                <i class='bx bxs-star pb btn'></i>
+                <i class='bx bx-skip-previous pb btn' ></i>
+                <i class='bx bx-pause pb btn'></i>
+                <i class='bx bx-skip-next pb btn'></i>
+                <i class='bx bx-podcast pb btn'></i>
+            </div>
+
+            <div class="volume">
+                <i class='bx bxs-volume-full vol btn'></i>
+                <progress value="80" max="100" class="prog"></progress>
+                <i class='bx bxs-volume-low vol btn'></i>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
