@@ -12,16 +12,20 @@
     
 }
 
+body{
+    background-image: url(img/alexandracover.png);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .wrapper{
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url(img/alexandracover.png);
-    
-    background-repeat: no-repeat;
-    background-size: cover;
-    backdrop-filter: blur(8px);    
+
+    backdrop-filter: blur(20px);    
 }
 
 .drs
